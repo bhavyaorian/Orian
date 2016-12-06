@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<project name = "orian" default = "info">
+
+<target name = "info">
+<echo> info block executed </echo>
+<echo>My ant version ${ant.version}</echo>
+<echo>${ant.java.version}</echo>
+</target>
+
+</project>
